@@ -10,6 +10,9 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 const title = ref('Hello')
+
+// 通过`console.log`打印的形式
+console.log(uni.$u.config.v);
 </script>
 
 <style>
